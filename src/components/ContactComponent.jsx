@@ -11,14 +11,14 @@ const ContactComponent = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_cql81ph', 'template_8v327jr', form.current, 'IaX8qnYJFgT0U0dPW')
-          .then(() => {
-              toast.success("Email Successfuly Sent");
-          }, () => {
-              toast.error("Something Happened, Please Try Again");
-          });
-        e.target.reset();
+
+            emailjs.sendForm('service_cql81ph', 'template_8v327jr', form.current, 'IaX8qnYJFgT0U0dPW')
+            .then(() => {
+                toast.success("Email Successfuly Sent");
+            }, () => {
+                toast.error("Something Happened, Please Try Again");
+            });
+          e.target.reset();
       };
 
     return (
@@ -44,7 +44,7 @@ const ContactComponent = () => {
                 </div>
                 <div className="flex flex-col mt-5 lg:mt-0 w-[85%] lg:w-[40%] h-[70%] font-semibold focus-within:text-dark">
                     <label htmlFor="message" className="md:text-xl">Send Message</label>
-                    <textarea className="pl-2 pt-2 focus:outline-dark focus:text-black rounded-xl border-2 border-solid border-gray" id="message" name="message" cols="30" rows="10" placeholder="Type Message"></textarea>
+                    <textarea className="pl-2 pt-2 focus:outline-dark focus:text-black rounded-xl border-2 border-solid border-gray" id="message" name="message" cols="30" rows="10" placeholder="Type Message" required></textarea>
                 </div>
                 </div>
                 <button className="transition-all duration-300 ease-in-out hover:text-mdDark hover:scale-y-125 hover:scale-x-125 md:text-3xl text-2xl font-anton bg-dark m-5 mb-10 px-3 py-2" type="submit">Send Email</button>
