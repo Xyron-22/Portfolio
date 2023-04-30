@@ -19,7 +19,7 @@ const About = () => {
             return (
               <div key={i} className="flex items-center flex-col justify-center m-1 sm:m-2">
                 <div className="w-16 h-16 md:w-24 md:h-24 flex justify-center items-center">
-                  <Image src={`/images/${fileName}`} width={100} height={100} alt={name} title={name} className={`object-contain`}></Image>
+                  <Image loading="eager" placeholder="blur" src={fileName} width={100} height={100} alt={name} title={name} className={`object-contain`}></Image>
                 </div>
               <p className="text-xs sm:text-sm md:text-xl font-semibold">{name}</p>
               </div>

@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { imageObjects } from "@/components/imageInfos";
+import cws from "../../../public/projectImages/CWS.png";
+import ecom from "../../../public/projectImages/e-com.png";
+import memoir from "../../../public/projectImages/Memoir.png";
+
 
 const Project = () => {
 
@@ -13,7 +17,7 @@ const Project = () => {
                 <p className="text-gray font-semibold font-anton text-xl md:text-3xl mb-3">Chat With Strangers</p>
                 <p className="text-gray font-medium font-anton text-base md:text-2xl mb-2">Real-Time Chat Web App</p>
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
-                    <Image src={"/projectImages/CWS.png"} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
+                    <Image loading="eager" placeholder="blur" src={cws} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
                         <Link href={"https://chat-with-strangers-1xoq.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm" target="_blank">View this Project</Link>
                     </div>
@@ -25,7 +29,7 @@ const Project = () => {
                             return (
                                 <div key={i} className="flex items-center flex-col justify-center m-1">
                                 <div className="w-6 h-6 flex justify-center items-center">
-                                    <Image src={`/images/${fileName}`} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
+                                    <Image loading="eager" placeholder="blur" src={fileName} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
                                 </div>
                                 <p className="text-xs">{name}</p>
                                 </div>
@@ -38,7 +42,7 @@ const Project = () => {
                 <p className="text-gray font-semibold font-anton text-xl md:text-3xl mb-3">Seven Zero Five</p>
                 <p className="text-gray font-medium font-anton text-base md:text-2xl mb-2">E-Commerce Website</p>
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
-                    <Image src={"/projectImages/e-com.png"} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
+                    <Image loading="eager" placeholder="blur" src={ecom} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
                         <Link href={"https://seven-sero-five.vercel.app/"} className="bg-dark p-2 text-sm lg:p-3 md:text-xl" target="_blank">View this Project</Link>
                     </div>
@@ -50,7 +54,7 @@ const Project = () => {
                             return (
                                 <div key={i} className="flex items-center flex-col justify-center m-1">
                                 <div className="w-6 h-6 flex justify-center items-center">
-                                    <Image src={`/images/${fileName}`} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
+                                    <Image loading="eager" placeholder="blur" src={fileName} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
                                 </div>
                                 <p className="text-xs">{name}</p>
                                 </div>
@@ -63,7 +67,7 @@ const Project = () => {
                 <p className="text-gray font-semibold font-anton text-xl md:text-3xl mb-3">Memoir</p>
                 <p className="text-gray font-medium font-anton text-base md:text-2xl mb-2">Social Media Web App</p>
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
-                    <Image src={"/projectImages/Memoir.png"} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
+                    <Image loading="eager" placeholder="blur" src={memoir} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
                         <Link href={"https://memoir-bxvx.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm" target="_blank">View this Project</Link>
                     </div>
@@ -75,7 +79,7 @@ const Project = () => {
                             return (
                                 <div key={i} className="flex items-center flex-col justify-center m-1">
                                 <div className="w-6 h-6 flex justify-center items-center">
-                                    <Image src={`/images/${fileName}`} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
+                                    <Image loading="eager" placeholder="blur" src={fileName} width={100} height={100} alt={name} title={name} className="object-contain"></Image>
                                 </div>
                                 <p className="text-xs">{name}</p>
                                 </div>
