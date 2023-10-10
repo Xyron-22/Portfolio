@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 import './globals.css'
+import Layout from '@/components/layout'
 
 export const metadata = {
   title: 'XU Portfolio',
@@ -19,9 +20,12 @@ export default function RootLayout({ children }) {
         <header className='h-[10%]'>
           <Navbar></Navbar>
       </header>
-        <main className='min-h-[75%] pb-28'>
+        <Layout children={children}></Layout>
+        {/* <main className='min-h-[75%] pb-28 bg-[url("../../public/backgrounds/20067927.jpg")] lg:bg-contain'>
+          <div className='min-h-[77vh]'>
         {children}
-        </main>
+        </div>
+        </main> */}
          <footer className='h-28 absolute bottom-0 w-full'>
           <Footer></Footer>
         </footer>
