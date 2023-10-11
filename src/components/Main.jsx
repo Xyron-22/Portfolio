@@ -7,7 +7,7 @@ const Main = ({children, toggle}) => {
 
   return (
     <main className={`min-h-[75%] pb-28 transition-all duration-400 ease-in-out ${toggle ? "bg-[url('../../public/backgrounds/1311.jpg')]" : "bg-[url('../../public/backgrounds/night.jpg')]"} lg:bg-cover bg-bottom`}>
-          <div className={`min-h-[77vh] text-${toggle ? "dark" : "mdLight"}`}>
+          <div className={`min-h-[77vh] ${toggle ? "text-dark" : "text-mdLight"}`}>
         {children}
         </div>
     </main>

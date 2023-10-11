@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='container-fluid bg-light flex flex-col min-h-screen relative'>
-        <LayoutBody children={children}></LayoutBody>
+        <LayoutBody>{children}</LayoutBody>
      </body>
     </html>
   )
