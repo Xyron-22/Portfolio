@@ -11,7 +11,7 @@ const LayoutBody = ({children}) => {
     <header className='h-[10%]'>
     <Navbar toggle={toggle} setToggle={setToggle}></Navbar>
 </header>
-  <Main children={children} toggle={toggle}></Main>
+  <Main toggle={toggle}>{children}</Main>
    <footer className='h-28 absolute bottom-0 w-full'>
     <Footer></Footer>
   </footer>
