@@ -26,6 +26,8 @@ module.exports = {
         anton: ["Anton", "sans-serif"]
       },
       backgroundImage: {
+        "daytime": "url('../../public/backgrounds/20067927.jpg')",
+        "nighttime": "url('../../public/backgrounds/nighttime.jpg')",
         "shape": "url('../../public/backgrounds/graph.png')",
         "shape2": "url('../../public/backgrounds/graph2.png')",
         "shape3": "url('../../public/backgrounds/graph3.png')",

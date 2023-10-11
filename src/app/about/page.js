@@ -12,7 +12,7 @@ const About = () => {
         <h1 className='text-xl md:text-4xl'>A <span className="font-bold md:text-5xl text-dark">Web Developer</span> based in the Philippines that is <span className="font-bold md:text-5xl text-dark">Persistent</span>, <span className="text-bold md:text-5xl text-dark">Resourceful</span>, and <span className="md:text-5xl font-bold text-dark">Eager to learn</span></h1>
         <p className='font-bold text-gray text-2xl font-anton'>Example paragraph</p>
         </div>
-      <div className='w-full my-3'>
+      <div className='w-full my-3 transition-all duration-700 ease-in-out'>
         <h1 className="text-sans font-bold text-3xl p-3">Techstack</h1>
         <div className="flex justify-evenly flex-wrap px-3">
           {imageObjects.map(({name, fileName}, i) => {
@@ -34,7 +34,7 @@ const About = () => {
           <p className="lg:w-[33%] font-semibold text-mdDark font-sans w-[80%] md:w-[60%] m-auto pt-3 md:pt-8 lg:p-0 xl:px-5 lg:h-48 lg:flex items-center">
           Backend Development including Business Logic, CRUD, API, Integrating Database, Middlewares, Authorization and Authentication, Templating Engines, Model, View, and Controllers.
           </p>
-          <p className="lg:w-[33%] font-semibold text-mdDark font-sans w-[80%] md:w-[60%] m-auto py-3 md:py-8 lg:p-0 xl:px-5 lg:border-l-2 lg:border-dark lg:border-solid lg:h-48 lg:h-48 lg:flex items-center">
+          <p className="lg:w-[33%] font-semibold text-mdDark font-sans w-[80%] md:w-[60%] m-auto py-3 md:py-8 lg:p-0 xl:px-5 lg:border-l-2 lg:border-dark lg:border-solid lg:h-48 lg:flex items-center">
           Integrating Database and Configuring Schema, Querying Database, Read and Write, and knowledgeable of Content Management Systems usage.
           </p>
         </div>
