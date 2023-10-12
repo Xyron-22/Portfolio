@@ -2,10 +2,6 @@ import { Inter } from 'next/font/google';
 import Image from 'next/image';
 import bg from "../../public/backgrounds/bg-removebg-preview.png";
 
-import {MdOutlineComputer} from "react-icons/md";
-import {GrServerCluster} from "react-icons/gr";
-import {BsDatabase} from "react-icons/bs";
-
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {

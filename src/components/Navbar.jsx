@@ -36,9 +36,9 @@ const Navbar = ({toggle, setToggle}) => {
             <Image src={toggle ? moon : sun} alt="Mode Image" width={20} height={20} className="mx-auto my-auto transition-all duration-700 ease-in-out rounded-full w-[90%] h-[100%]"></Image>
             </div>
             </button>
-            <ul className={`lg:px-3 bg-opaque lg:bg-mdLight lg:inline lg:flex lg:justify-between lg:w-[50%] xl:w-[30%] lg:items-center w-full text-center ${hideBurger} font-anton text-2xl text-mdDark lg:text-gray absolute lg:relative z-50`}>
+            <ul className={`lg:px-3 bg-opaque lg:bg-mdLight lg:flex lg:justify-between lg:w-[50%] xl:w-[30%] lg:items-center w-full text-center ${hideBurger} font-anton text-2xl text-mdDark lg:text-gray absolute lg:relative z-50`}>
                 <li className="h-[100%] md:h-[95%] transition-all duration-300 ease-in-out hover:scale-y-110 hover:scale-x-110 hover:text-mdDark md:hover:bg-dark p-5 first-letter:text-dark first-letter:text-4xl hover:first-letter:text-gray"><Link href={"/about"}>About</Link></li>
-                <li className="h-[100%] md:h-[95%] transition-all duration-300 ease-in-out hover:scale-y-110 hover:scale-x-110 hover:text-mdDark md:hover:bg-dark p-5 first-letter:text-dark first-letter:text-4xl hover:first-letter:text-gray"><Link href={"/about"}>Services</Link></li>
+                <li className="h-[100%] md:h-[95%] transition-all duration-300 ease-in-out hover:scale-y-110 hover:scale-x-110 hover:text-mdDark md:hover:bg-dark p-5 first-letter:text-dark first-letter:text-4xl hover:first-letter:text-gray"><Link href={"/services"}>Services</Link></li>
                 <li className="h-[100%] md:h-[95%] transition-all duration-300 ease-in-out hover:scale-y-110 hover:scale-x-110 hover:text-mdDark md:hover:bg-dark p-5 first-letter:text-dark first-letter:text-4xl hover:first-letter:text-gray"><Link href={"/projects"}>Projects</Link></li>
                 <li className="h-[100%] md:h-[95%] transition-all duration-300 ease-in-out hover:scale-y-110 hover:scale-x-110 hover:text-mdDark md:hover:bg-dark p-5 first-letter:text-dark first-letter:text-4xl hover:first-letter:text-gray"><Link href={"contact"}>Contact</Link></li>
             </ul>

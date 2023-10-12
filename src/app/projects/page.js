@@ -12,7 +12,7 @@ const Project = () => {
     return (
         <div className="w-full text-center">
           <h1 className="font-anton font-semibold text-3xl md:text-5xl my-5 transition-all duration-700 ease-in-out">Projects</h1>
-          <div className="flex flex-col lg:flex-row lg:justify-evenly items-center transition-all duration-700 ease-in-out">
+          <div className="flex flex-col lg:flex-row flex-wrap lg:justify-evenly items-center transition-all duration-700 ease-in-out">
             <div className="h-full w-[80%] lg:w-[30%] text-center border-b-2 border-solid border-dark mb-4">
                 <p className=" font-semibold font-anton text-xl md:text-3xl mb-3">Chat With Strangers</p>
                 <p className=" font-medium font-anton text-base md:text-2xl mb-2">Real-Time Chat Web App</p>
