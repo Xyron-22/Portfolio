@@ -14,7 +14,9 @@ import redux from "../../public/images/redux.png";
 import sanity from "../../public/images/sanity.png";
 import socket from "../../public/images/socket.png";
 import tailwindcss from "../../public/images/tailwindcss.png";
-
+import github from "../../public/images/github.png";
+import sql from "../../public/images/sql.png";
+import mysql from "../../public/images/mysql.png";
 
 export const imageObjects = [
     {name: "HTML", fileName: html, usedIn: ["Memoir", "CWS", "E-com"]},
@@ -33,4 +35,7 @@ export const imageObjects = [
     {name: "Postman", fileName: postman, usedIn: ["Memoir", "CWS"]},
     {name: "Git", fileName: git, usedIn: ["Memoir", "CWS", "E-com"]},
     {name: "NPM", fileName: npm, usedIn: ["Memoir", "CWS", "E-com"]},
+    {name: "Github", fileName: github, usedIn: ["Memoir", "CWS", "E-com"]},
+    {name: "sql", fileName: sql, usedIn: []},
+    {name: "mysql", fileName: mysql, usedIn: []},
   ]

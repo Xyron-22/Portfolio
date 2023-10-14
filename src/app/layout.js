@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className='container-fluid bg-light flex flex-col min-h-screen relative'>
+      <body className='container-fluid bg-light flex flex-col min-h-screen relative select-none'>
         <LayoutBody>{children}</LayoutBody>
      </body>
     </html>

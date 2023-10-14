@@ -19,7 +19,7 @@ const Project = () => {
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
                     <Image alt="CWS Project" loading="eager" placeholder="blur" src={cws} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
-                        <Link href={"https://chat-with-strangers-1xoq.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm" target="_blank">View this Project</Link>
+                        <Link href={"https://chat-with-strangers-1xoq.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm text-black lg:hover:text-mdDark" target="_blank">View this Project</Link>
                     </div>
                 </div>
                 <p className=" font-medium font-anton text-base md:text-xl my-2">TechStack Used</p>
@@ -44,7 +44,7 @@ const Project = () => {
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
                     <Image alt="E-commerce Project" loading="eager" placeholder="blur" src={ecom} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
-                        <Link href={"https://seven-sero-five.vercel.app/"} className="bg-dark p-2 text-sm lg:p-3 md:text-xl" target="_blank">View this Project</Link>
+                        <Link href={"https://seven-sero-five.vercel.app/"} className="bg-dark p-2 text-sm lg:p-3 md:text-xl text-black lg:hover:text-mdDark" target="_blank">View this Project</Link>
                     </div>
                 </div>
                 <p className=" font-medium font-anton text-base md:text-xl my-2">TechStack Used</p>
@@ -69,7 +69,7 @@ const Project = () => {
                 <div className="relative group transition-all duration-300 ease-in lg:hover:bg-black">
                     <Image alt="Social Media Project" loading="eager" placeholder="blur" src={memoir} width={1300} height={1300} className="object-contain lg:group-hover:opacity-30 transition-all duration-300 ease-in"></Image>
                     <div className="font-anton hover:text-mdDark my-2 md:my-4 lg:my-0 lg:absolute lg:top-[50%] w-full text-center lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 ease-in">
-                        <Link href={"https://memoir-bxvx.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm" target="_blank">View this Project</Link>
+                        <Link href={"https://memoir-bxvx.onrender.com/"} className="bg-dark lg:p-3 md:text-xl p-2 text-sm text-black lg:hover:text-mdDark" target="_blank">View this Project</Link>
                     </div>
                 </div>
                 <p className=" font-medium font-anton text-base md:text-xl my-2">TechStack Used</p>
